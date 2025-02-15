@@ -28,7 +28,7 @@ if page == 'Introduction':
 
     # image_path_1 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Michka.jpg"
     image_path_1 = "./assets/Michka.jpg"
-    st.image(image_path_1, caption="Michka", use_column_width=True)
+    st.image(image_path_1, caption="Michka", use_container_width=True)
 
     st.write("""
     **MICHKA** est un acronyme qui reflète les principales caractéristiques de ce jouet évolué :
