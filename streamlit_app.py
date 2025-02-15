@@ -187,7 +187,8 @@ elif page == 'Réseau et interconnexions':
     st.write("""
     Description du réseau d'interconnexion de "MICHKA".
     """)
-    image_path_3 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Principe_2.jpg"
+    # image_path_3 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Principe_2.jpg"
+    image_path_3 = "./assets/Principe_2.jpg"     
     st.image(image_path_3, caption="Michka - Version Avancée", width=1000)
 
 elif page == 'Rapports et suivi':
