@@ -27,7 +27,7 @@ if page == 'Introduction':
         unsafe_allow_html=True)
 
     # image_path_1 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Michka.jpg"
-    image_path_1 = "Michka.jpg"
+    image_path_1 = "./assets/Michka.jpg"
     st.image(image_path_1, caption="Michka", use_column_width=True)
 
     st.write("""
@@ -97,7 +97,7 @@ elif page == 'Fonctionnalités':
     st.markdown("<h2 style='text-align: center; color: #1E90FF;'>Fonctionnalités</h2>", unsafe_allow_html=True)
 
     #image_path_2 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Mishka_V1.png"
-    image_path_2 = "./images/Michka_Detail_V0.jpg"
+    image_path_2 = "./assets/Michka_Detail_V0.jpg"
     st.image(image_path_2, caption="Michka - Version Avancée", width=1000)
 
     st.subheader("Enseignement de la Langue des Signes LSF")
@@ -154,14 +154,14 @@ elif page == 'Fonctionnalités':
     - Danses musicales, gestes définis par les professionnels exercices adaptés en groupes ou individuels.
     """)
     # Intégrer la musique
-    audio_file_path = "C:/Users/MANRESA/Documents/DESC/5_Informatique/Projet Michka/Sons et vidéos/2025-01-25_14-34-07.mp4"
+    audio_file_path = "./assets/2025-01-25_14-34-07.mp4"
     audio_file = open(audio_file_path, 'rb')
     audio_bytes = audio_file.read()
 
     st.audio(audio_bytes, format='audio/mp3')
 
     # Intégrer la vidéo
-    video_file_path ="C:/Users/MANRESA/Documents/DESC/5_Informatique/Projet Michka/Sons et vidéos/2025-01-25_14-34-07.mp4"
+    video_file_path ="./assets/2025-01-25_14-34-07.mp4"
     st.video(video_file_path, format='video/mp4')
 
 elif page == 'Reconnaissance Vocale':
