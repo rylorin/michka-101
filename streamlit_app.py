@@ -1,8 +1,10 @@
 import streamlit as st
-ignore::DeprecationWarning
-ignore::PendingDeprecationWarning
-ignore::ImportWarning
-ignore::ResourceWarning
+import sys
+
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
+
 
 # Configuration de la page
 st.set_page_config(page_title="Jouet Évolué", page_icon=":robot_face:")
