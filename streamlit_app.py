@@ -26,7 +26,8 @@ if page == 'Introduction':
         "<h1 style='text-align: center; color: #1E90FF;'>Présentation d'un 'Jouet' Évolué pour Enfants et Adultes Déficients Auditifs ou Muets</h1>",
         unsafe_allow_html=True)
 
-    image_path_1 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Michka.jpg"
+    # image_path_1 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Michka.jpg"
+    image_path_1 = "Michka.jpg"
     st.image(image_path_1, caption="Michka", use_column_width=True)
 
     st.write("""
