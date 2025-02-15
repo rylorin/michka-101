@@ -97,7 +97,7 @@ elif page == 'Fonctionnalités':
     st.markdown("<h2 style='text-align: center; color: #1E90FF;'>Fonctionnalités</h2>", unsafe_allow_html=True)
 
     #image_path_2 = r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\Mishka_V1.png"
-    image_path_2 = "Michka_Détail_V0.jpg"
+    image_path_2 = "./images/Michka_Detail_V0.jpg"
     st.image(image_path_2, caption="Michka - Version Avancée", width=1000)
 
     st.subheader("Enseignement de la Langue des Signes LSF")
