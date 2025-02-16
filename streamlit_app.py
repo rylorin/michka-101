@@ -386,7 +386,7 @@ elif page == 'Evolutions':
     """)
 
     # Display the image of AURORA
-    st.image(r"C:\Users\MANRESA\Documents\DESC\5_Informatique\Projet Michka\Images\AURORA\Aurora.png", caption="AURORA - Votre Assistant Interactif")
+    st.image(r"./assets/Aurora.png", caption="AURORA - Votre Assistant Interactif")
 
 elif page == 'Remerciements':
     st.markdown("<h2 style='text-align: center; color: #1E90FF;'>Remerciements</h2>", unsafe_allow_html=True)
